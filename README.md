@@ -5,30 +5,43 @@
 
 <p align="center">
   <kbd>
-    <img src="https://github.com/1hanzla100/developer-portfolio/blob/master/picture.PNG"></img>
+    <img src="https://github.com/jean-rocha1/MyPortfolio/blob/main/Group%20112.png"></img>
   </kbd>
 </p>
 
-## To view a live example, **[click here](https://developer-portfolio-1hanzla100.vercel.app/)**.
+## Projetos, **[click here](https://developer-portfolio-1hanzla100.vercel.app/)**.
 
-Just Edit `portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
+## Square Analysis, **[click here](https://app.powerbi.com/reportEmbed?reportId=fc7abf58-d2d1-4802-9bfc-ccd80abb21ad&autoAuth=true&ctid=30cb66b6-2919-4c93-b208-6b8e8cefdd39/)**.
+This project enables users to accurately determine the distance between a selected school and nearby schools. The information provided includes the number of pupils in each school, their locations, and the average ticket price. This allows for a comprehensive and effortless comparison of schools within a specific radius. 
 
-But if you want to **contribute** and make this much better for other developer have a look at
-[Issues](https://github.com/1hanzla100/developer-portfolio/issues).
+<p align="center">
+  <kbd>
+    <img src="https://github.com/jean-rocha1/MyPortfolio/blob/main/Design%20sem%20nome.gif"></img>
+  </kbd>
+</p>
 
-If you created something awesome and want to contribute then feel free to open an
-[pull request](https://github.com/1hanzla100/developer-portfolio/pulls).
+```Dax
+Principal Dax = 
+VAR Rad_lat1 =
+    SELECTEDVALUE ( Origem[Latitude] ) / 57.2957795
+VAR Rad_lat2 =
+    SELECTEDVALUE ( Fat_Organization[Latitude] ) / 57.2957795
+VAR Rad_long1 =
+    SELECTEDVALUE ( Origem[Longitude] ) / 57.2957795
+VAR Rad_long2 =
+    SELECTEDVALUE ( Fat_Organization[Longitude] ) / 57.2957795
+VAR x =
+    ROUND (
+        SIN ( Rad_lat1 ) * SIN ( Rad_lat2 )
+            + COS ( Rad_lat1 ) * COS ( Rad_lat2 )
+                * COS ( Rad_long1 - Rad_long2 ),
+        15
+    )
+VAR vTerra = 6371
+RETURN
+    ACOS ( x ) * 6371
 
-## Sections
-
-✔️ Summary and About me\
-✔️ Skills\
-✔️ Education\
-✔️ Work Experience\
-✔️ Feedbacks\
-✔️ Projects\
-✔️ Github Profile
-
+````
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing
