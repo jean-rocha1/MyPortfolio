@@ -5,7 +5,7 @@
 
 <p align="center">
   <kbd>
-    <img src="https://github.com/jean-rocha1/MyPortfolio/blob/main/Group%20112.png"></img>
+    <img src="https://github.com/jean-rocha1/MyPortfolio/blob/main/Portoflio%20-%20Dark.png"></img>
   </kbd>
 </p>
 
@@ -42,97 +42,16 @@ RETURN
     ACOS ( x ) * 6371
 
 ````
-## Getting Started
+## Power Apps
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing
-purposes.
 
-You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with
-[npm](http://npmjs.com)) installed on your computer. <br> **For Windows** Install Visual C++ Build Environment:
-[Visual Studio Build Tools](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools)
+A Power Apps application has been developed for requesting promotional items and materials for events organized by consultants and distributed nationwide across Brazil. This application establishes a direct connection with the company's CRM and utilizes a standardized unified database, enabling the Commercial Operations team to efficiently process orders. This streamlined approach has resulted in a reduction of operational time by over 70%.
 
-```
-node@v10.16.0 or higher
-npm@6.9.0 or higher
-git@2.17.1 or higher
-```
+<p align="center">
+  <kbd>
+    <img src="https://github.com/jean-rocha1/MyPortfolio/blob/main/Design%20sem%20nome%20(1).gif"></img>
+  </kbd>
+</p>
 
-## How To Use
 
-1. Fork this repoistory and clone it to your local machine.
-
-```bash
-$ git clone https://github.com/<your-username>/developer-portfolio.git
-```
-
-2. Go into the repository
-
-```bash
-$ cd developer-portfolio
-```
-
-3. Install dependencies
-
-```bash
-$ yarn
-```
-
-4. Edit `portfolio.js`
-
-5. Start your development server
-
-```bash
-$ yarn dev
-```
-
-## Linking Portfolio to Github
-
-```javascript
-  //  portfolio.js
-  githubUserName: 'YOUR GITHUB USERNAME HERE',
-```
-
-#### Using Emojis
-
-For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` function and pass the text you need as an
-argument. This would help in keeping emojis compatible across different browsers and platforms.
-
-## Technologies Used
-
-- [Next.js](https://nextjs.org/)
-- [axios](https://www.npmjs.com/package/axios)
-- [reactstrap](https://reactstrap.github.io/)
-- [react-reveal](https://www.react-reveal.com/)
-- [react-lottie](https://www.npmjs.com/package/react-lottie)
-- [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
-- [react-headroom](https://github.com/KyleAMathews/react-headroom)
-- [color-thief](https://github.com/lokesh/color-thief)
-
-## Illustrations
-
-- [Lottie File Source](https://lottiefiles.com)
-
-## Icons
-
-Iconify Icons are used in skill section. You can find all the icons here: [Iconify](https://icon-sets.iconify.design/).
-
-## For the Future
-
-If you can help us with these. Please don't hesitate to open a
-[pull request](https://github.com/1hanzla100/developer-portfolio/pulls).
-
-- Enable Dark Mode
-
-- Add More Sections
-
-## Author
-
-👤 **Hanzla Tauqeer**
-
-- Website: https://hanzla.netlify.app
-- Github: [@1hanzla100](https://github.com/1hanzla100)
-- LinkedIn: [@1hanzla100](https://linkedin.com/in/1hanzla100)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
+- LinkedIn: [@1hanzla100](https://linkedin.com/in/jean-rocha)
