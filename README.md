@@ -55,3 +55,67 @@ A Power Apps application has been developed for requesting promotional items and
 
 
 - LinkedIn: [@1hanzla100](https://linkedin.com/in/jean-rocha)
+
+
+
+```Python 
+### version
+
+!python -V
+
+# 1.3 arrays Numpy
+
+import numpy as np
+
+km = np.loadtxt('carros-km.txt')
+
+km
+
+anos = np.loadtxt('carros-anos.txt', dtype = int)
+
+anos
+
+### Obtaining the average mileage per year
+
+km_media = km / (2022 - anos)
+
+km_media
+
+type(km_media)
+
+```
+
+### Variable declaration
+
+
+```Python 
+ano_atual = 2019
+ano_fabricacao = 2003
+km_total = 44410.0
+
+Year_Now
+
+manufacturing_year
+
+km_total
+
+# $$km_{averange} = \frac {km_{total}}{(Year_{now} - Year_{manufacturing})}$$
+
+km_media = km_total // (ano_atual - ano_fabricacao)
+
+km_media
+
+
+### Multiple declaration
+
+current_year = 2019
+year_manufactured = 2003
+km_total = 44410.0
+
+current_year, manufacturing_year, km_total = 2020 , 2019 , 4888.0
+
+current_year
+
+km_total
+
+
