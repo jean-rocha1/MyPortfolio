@@ -9,7 +9,7 @@
   </kbd>
 </p>
 
-## Projetos, **[click here](https://developer-portfolio-1hanzla100.vercel.app/)**.
+## Projetos, 
 
 ## Square Analysis, **[click here](https://app.powerbi.com/reportEmbed?reportId=fc7abf58-d2d1-4802-9bfc-ccd80abb21ad&autoAuth=true&ctid=30cb66b6-2919-4c93-b208-6b8e8cefdd39/)**.
 This project enables users to accurately determine the distance between a selected school and nearby schools. The information provided includes the number of pupils in each school, their locations, and the average ticket price. This allows for a comprehensive and effortless comparison of schools within a specific radius. 
@@ -20,7 +20,7 @@ This project enables users to accurately determine the distance between a select
   </kbd>
 </p>
 
-```Dax
+```DAX
 Principal Dax = 
 VAR Rad_lat1 =
     SELECTEDVALUE ( Origem[Latitude] ) / 57.2957795
@@ -54,9 +54,27 @@ A Power Apps application has been developed for requesting promotional items and
 </p>
 
 
-- LinkedIn: [@1hanzla100](https://linkedin.com/in/jean-rocha)
+- LinkedIn: [@jean-rocha](https://linkedin.com/in/jean-rocha)
+
+## SQL 
+# Challenge 1 
+
+**[THE PADS] ( https://www.hackerrank.com/challenges/the-pads/problem)**  
+
+# Result
+```SQL 
+SELECT CONCAT(NAME, '(', LEFT(OCCUPATION, 1), ')')
+FROM OCCUPATIONS
+ORDER BY NAME;
 
 
+SELECT CONCAT('There are a total of ', COUNT(OCCUPATION), ' ', LOWER(OCCUPATION), 's.')
+FROM OCCUPATIONS
+GROUP BY OCCUPATION
+ORDER BY COUNT(OCCUPATION), LOWER(OCCUPATION);
+```
+
+## Python, 
 
 ```Python 
 ### version
